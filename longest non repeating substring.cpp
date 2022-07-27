@@ -1,4 +1,4 @@
-class Solution {
+ {
 public:
     int lengthOfLongestSubstring(string s) {
         unordered_map<char,int> map;
@@ -25,6 +25,6 @@ public:
                 r++;
             }
         }
-        return answer;
+        return answer
     }
 };
