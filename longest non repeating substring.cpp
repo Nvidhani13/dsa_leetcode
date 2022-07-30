@@ -1,4 +1,4 @@
- {
+ 
 public:
     int lengthOfLongestSubstring(string s) {
         unordered_map<char,int> map;
